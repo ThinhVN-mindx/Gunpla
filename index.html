@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ | Gundam Dock</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" class="logo"><img src="./img/logo.svg" alt="Gunpla" /></a>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Tìm Gundam..." />
+        <button onclick="search()">🔍</button>
+      </div>
+    </header>
+
+    <nav>
+      <div class="pill-bar">
+        <a class="pill" href="./index.html">Home</a>
+        <a class="pill" href="./AboutUs.html">About Us</a>
+        <a class="pill" href="./Products.html">Products</a>
+        <a class="pill" href="./Information.html">Information</a>
+        <a class="pill" href="./Help.html">Help</a>
+        <a class="pill" href="./Register.html">Register</a>
+        <a class="pill" href="./Login.html">Login</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <h1>Lắp ráp từng mảnh. Đứng cạnh người khổng lồ.</h1>
+        <p>Mô hình Gundam Bandai chính hãng, từ HG nhập môn đến PG sưu tầm.</p>
+        <a class="btn" href="./Products.html">Xem sản phẩm</a>
+      </section>
+
+      <section class="section">
+        <h2>Chọn đúng tỷ lệ</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>🧩 HG · 1/144</h3>
+            <p>Dễ lắp, giá mềm. Hợp người mới.</p>
+          </div>
+          <div class="card">
+            <h3>🔧 RG · 1/144</h3>
+            <p>Nhỏ nhưng khung xương chi tiết.</p>
+          </div>
+          <div class="card">
+            <h3>⚙️ MG · 1/100</h3>
+            <p>Khung trong, cử động linh hoạt.</p>
+          </div>
+          <div class="card">
+            <h3>🏆 PG · 1/60</h3>
+            <p>Cỡ lớn, có đèn LED. Dành cho sưu tầm.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Các sản phẩm mới nhất</h2>
+        <div class="grid">
+          <div class="product-card">
+            <img src="./img/images.jpg" alt="RX-78-2" />
+            <h3>RX-78-2 Gundam</h3>
+            <p class="price">890.000₫</p>
+          </div>
+          <div class="product-card">
+            <img src="./img/unicorn_gundam.jpg" alt="Unicorn" />
+            <h3>Unicorn Gundam</h3>
+            <p class="price">780.000₫</p>
+          </div>
+          <div class="product-card">
+            <img src="./img/Zaku_II_(Char Custom).jpg" alt="Zaku II" />
+            <h3>Zaku II (Char Custom)</h3>
+            <p class="price">350.000₫</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Gundam Dock. All rights reserved.</p>
+    </footer>
+    <script src="./js/search.js" defer></script>
+    <script src="./js/api.js" defer></script>
+  </body>
+</html>
+

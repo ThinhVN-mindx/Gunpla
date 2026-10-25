@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | Gundam Dock</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" class="logo"><img src="./img/logo.svg" alt="Gunpla" /></a>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Tìm Gundam..." />
+        <button onclick="search()">🔍</button>
+      </div>
+    </header>
+
+    <nav>
+      <div class="pill-bar">
+        <a class="pill" href="./index.html">Home</a>
+        <a class="pill" href="./AboutUs.html">About Us</a>
+        <a class="pill" href="./Products.html">Products</a>
+        <a class="pill" href="./Information.html">Information</a>
+        <a class="pill" href="./Help.html">Help</a>
+        <a class="pill" href="./Register.html">Register</a>
+        <a class="pill" href="./Login.html">Login</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="section">
+        <h1>Các sản phẩm bán chạy của chúng tôi!</h1>
+        <div class="filters" id="filters">
+          <button class="chip on" data-g="all">Tất cả</button>
+          <button class="chip" data-g="HG">HG</button>
+          <button class="chip" data-g="RG">RG</button>
+          <button class="chip" data-g="MG">MG</button>
+          <button class="chip" data-g="PG">PG</button>
+        </div>
+        <div id="product-list" class="grid"></div>
+      </section>
+
+      <section class="section">
+        <h2>Chi tiết sản phẩm</h2>
+        <div id="product-detail" class="card">
+          <p>Chưa chọn sản phẩm nào</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Gundam Dock. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/search.js" defer></script>
+    <script src="./js/products.js" defer></script>
+  </body>
+</html>
+

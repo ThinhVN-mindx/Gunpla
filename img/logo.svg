@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="190" viewBox="0 0 720 190" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Gunpla logo</title>
+  <desc id="desc">A navy and gold mecha crest beside the Gunpla wordmark.</desc>
+  <defs>
+    <linearGradient id="gold" x1="20" y1="20" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE17A"/>
+      <stop offset="1" stop-color="#F2A900"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(12 10)">
+    <path d="M82 5 145 28v53c0 42-25 70-63 91C44 151 19 123 19 81V28L82 5Z" fill="#101A35" stroke="url(#gold)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="m82 27 37 14v37c0 25-12 44-37 60-25-16-37-35-37-60V41l37-14Z" fill="#172B57" stroke="#F5F7FC" stroke-width="3" stroke-linejoin="round"/>
+    <path d="m51 54-17-18 4 31 16 9m59-22 17-18-4 31-16 9" fill="#F2A900" stroke="#101A35" stroke-width="5" stroke-linejoin="round"/>
+    <path d="m62 56 20-10 20 10-4 37-16 13-16-13-4-37Z" fill="#E7EDF8" stroke="#101A35" stroke-width="4" stroke-linejoin="round"/>
+    <path d="m65 67 15-5v12l-14 5m33-12-15-5v12l14 5" fill="#D62828" stroke="#101A35" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M78 91h8m-4-20v14" stroke="#101A35" stroke-width="4" stroke-linecap="round"/>
+    <path d="M59 119h46" stroke="#F2A900" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g fill="#F5F7FC">
+    <text x="190" y="111" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="900" letter-spacing="3">GUNPLA</text>
+    <path d="M193 132h365" stroke="#D62828" stroke-width="7" stroke-linecap="round"/>
+    <text x="195" y="162" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="5" fill="#AAB5CC">BUILD · DISPLAY · COLLECT</text>
+  </g>
+</svg>
+

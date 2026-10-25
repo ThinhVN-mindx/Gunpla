@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help | Gundam Dock</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" class="logo"><img src="./img/logo.svg" alt="Gunpla" /></a>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Tìm Gundam..." />
+        <button onclick="search()">🔍</button>
+      </div>
+    </header>
+
+    <nav>
+      <div class="pill-bar">
+        <a class="pill" href="./index.html">Home</a>
+        <a class="pill" href="./AboutUs.html">About Us</a>
+        <a class="pill" href="./Products.html">Products</a>
+        <a class="pill" href="./Information.html">Information</a>
+        <a class="pill" href="./Help.html">Help</a>
+        <a class="pill" href="./Register.html">Register</a>
+        <a class="pill" href="./Login.html">Login</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="form-wrap">
+        <div class="form-box">
+          <h1>Liên hệ với chúng tôi</h1>
+          <p>Nếu bạn có thắc mắc hay góp ý, vui lòng điền vào form bên dưới.</p>
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Họ và tên" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Nội dung liên hệ..."
+              required
+            ></textarea>
+            <p id="msg"></p>
+            <button type="submit">Gửi</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Gundam Dock. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/search.js" defer></script>
+  </body>
+</html>
+
